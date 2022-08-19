@@ -7,8 +7,8 @@ public class Test {
     }
 
     public int hashCode1() {
-        String xyt = "11111111111111111111111133333111111111111111111111";
-        String xyt1 = "1111111111111111111111111112211111111111iiuiuiu1111111";
+        String xyt = "99";
+        String xyt1 = "99";
         return super.hashCode();
     }
 }
