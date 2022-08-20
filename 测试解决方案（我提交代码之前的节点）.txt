@@ -1,1 +1,3 @@
 // 测试开始
+
+insert into table(a,b,c) values(#{a},#{b},#{c});
