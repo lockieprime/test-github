@@ -1,9 +1,10 @@
 有1没有2
 //时间线是由上往下走的。
 
+insert into table(a,b,c) values(#{a},#{b},#{c});
 //此分支0812
     //我提交
-    insert into table(a,b,c,d) values(#{a},#{b},#{c});
+    insert into table(a,b,c,d) values(#{a},#{b},#{c},#{d});
     //别人提交
     insert into table(a,b,c,e) values(#{a},#{b},#{c},#{e});
     //别人解决冲突
