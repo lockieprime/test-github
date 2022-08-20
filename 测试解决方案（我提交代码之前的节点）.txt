@@ -1,1 +1,1 @@
-insert into table(a,b,c) values(#{a},#{b},#{c});
+insert into table(a,b,c,d) values(#{a},#{b},#{c},#{d});
