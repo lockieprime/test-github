@@ -7,8 +7,10 @@ public class Test {
     }
 
     public int hashCode1() {
-        String xyt = "99";
-        String xyt1 = "99";
+        int c = 3;
+        int a = 2;
+        int b = a + c;
+
         // 我提交了。别人提交的代码。我提交的代码。
         return super.hashCode();
     }
