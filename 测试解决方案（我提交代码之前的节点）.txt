@@ -1,2 +1,1 @@
 // 测试开始2
-insert into table(a,b,c,e) values(#{a},#{b},#{c},#{e});
